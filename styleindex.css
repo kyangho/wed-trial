@@ -1,0 +1,156 @@
+body div:nth-child(1){
+    display: flex;
+}
+body div:first-child div:first-child img{
+    width: 100px;
+    height:  100px;
+}
+body div:first-child div:first-child{
+    width: 10%;
+}
+body div:first-child div:nth-child(2){
+    width: 75%;
+}
+body div:first-child div:last-child{
+    display: block;
+    width: 15%;
+    padding: 40px 0 0 0;
+    float: right;
+    margin: 0 auto;
+}
+body div:first-child div ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    align-content: center;
+    padding: 10px 30px 10px 200px;
+    
+}
+
+body div:first-child div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+body div:first-child div:last-child{
+    justify-content: right;
+}
+
+.banner01 img{
+    width: 100%;
+}
+
+body div:nth-child(3) h1{
+    display: block;
+    text-align: center;
+    color: red;
+    width: 100%;
+}
+
+body div:nth-child(3) div img{
+    width: 100%;
+    border-radius: 1em;
+}
+.product{
+    width: 21%;
+    float: left;
+}
+
+body div:nth-child(3) div{
+    float: left;
+    box-shadow: 2px 6px 10px 0px black;
+    border-radius: 1em;
+    margin-left: 20px;
+}
+body div:nth-child(3) div h4{
+    text-align: center;
+}
+body div:nth-child(3) div p del{
+    color: gray;
+}
+body div:nth-child(3) div p{
+    color: red;
+    text-align: center;
+}
+body div:nth-child(3) div div{
+    float: none;
+    text-align: center;
+    border-radius: 0.5em;
+    width: 100px !important;
+    height: 30px !important ;
+    margin: 0 auto;
+    padding: 10px 0 0 0 ;
+    margin-bottom: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+body div:nth-child(3)::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body div:nth-child(3) div:first-child{
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+.banner2 img{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.banner2 h2{
+    display: block;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-top: 30px;
+    font-size: 3.7em;
+}
+.banner2 .banner_image1{
+    display: block;
+    width: 100%;
+}
+
+.banner2{
+    height: 35em;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.container div{
+    display: block !important;
+    width: 40%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.container div img{
+    width: 15em;
+    float: left;
+}
+
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container div:last-child{
+    display: none !important;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer p, .footer h5{
+    text-align: center;
+}
